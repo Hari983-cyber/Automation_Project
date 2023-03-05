@@ -69,3 +69,5 @@ else
 echo "cron job needs to be created,creating a cron job"
     printf "0 0 * * * root /root/Automation_Project/automation.sh\n" > $automate_cron_job 
 fi
+
+#Code End
